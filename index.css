@@ -90,6 +90,9 @@ body{
 .nav ul .home-active{
     background-color: #06477f;
 }
+.nav .icon{
+    display: none;
+}
 .nav .search{
     padding: 1rem 1.5rem;
     border-left: 1px solid white;
@@ -125,7 +128,7 @@ body{
 }
 .side-by-side .side-1 .about{
     margin-bottom: 2rem;
-    margin-top: -7rem;
+    /* margin-top: -7rem; */
     /* background-color: red; */
 }
 .side-by-side .side-1 .about p{
@@ -263,3 +266,166 @@ footer ul li a:hover{
     color: #06477f;
 }
 
+/* browser-1 */
+@media (max-width:948px) and (min-width:830px){
+    .box{
+        width: 80vw;
+    }
+    .image img{
+        width: 80vw;
+    }
+    .nav ul{
+        display: none;
+    }
+    .nav .icon{
+        display: flex;
+        padding: 0 1rem;
+    }
+    .nav .icon a{
+        color: white;
+    }
+    .nav .search{
+        border: none;
+    }
+    .side-by-side .side-1{
+        /* background-color: red; */
+        width: 18vw;
+    }
+}
+
+/* browser-2 */
+@media (max-width:828px) and (min-width:530px){
+    .box{
+        width: 80vw;
+    }
+    .image img{
+        width: 80vw;
+    }
+    .nav ul{
+        display: none;
+    }
+    .nav .icon{
+        display: flex;
+        padding: 0 1rem;
+    }
+    .nav .icon a{
+        color: white;
+    }
+    .nav .search{
+        border: none;
+    }
+    .side-by-side .side-1{
+        /* background-color: red; */
+        width: 18vw;
+        font-size: 0.6rem;
+    }
+    .side-by-side .side-2{
+        display: block;
+        margin: auto;
+        font-size: 0.6rem;
+        /* background-color: red; */
+    }
+    .side-by-side .side-2 .line{
+        width: 40vw;
+    }
+}
+
+/* mobile starts at iphone xr,12pro,14pro max,pixel-7,s20+ultra,ipad */
+@media (max-width:430px) and (min-width:380px){
+    .box{
+        width: 80vw;
+    }
+    .box-nav img{
+        width: 5rem;
+    }
+    .box .nav-login{
+        font-size: 0.5rem;
+        margin-top: 1rem;
+    }
+    .image img{
+        width: 80vw;
+    }
+    .nav ul{
+        display: none;
+    }
+    .nav .icon{
+        display: flex;
+        padding: 0 1rem;
+    }
+    .nav .icon a{
+        color: white;
+    }
+    .nav .search{
+        border: none;
+    }
+    .side-by-side .side-1{
+        /* background-color: red; */
+        width: 18vw;
+        font-size: 0.6rem;
+    }
+    .side-by-side .side-1 .overview ul{
+        font-size: 0.5rem;
+    }
+    .side-by-side .side-2{
+        display: block;
+        margin: auto;
+        font-size: 0.6rem;
+        /* background-color: red; */
+    }
+    .side-by-side .side-2 .line{
+        width: 40vw;
+    }
+    footer{
+        font-size: 0.45rem;
+    }
+}
+
+/* iphone SE,samsung s8+ */
+@media (max-width:400px) and (min-width:300px){
+    .box{
+        width: 80vw;
+    }
+    .box-nav img{
+        width: 4rem;
+    }
+    .box .nav-login{
+        font-size: 0.5rem;
+        margin-top: 1rem;
+    }
+    .image img{
+        width: 80vw;
+    }
+    .nav ul{
+        display: none;
+    }
+    .nav .icon{
+        display: flex;
+        padding: 0 1rem;
+    }
+    .nav .icon a{
+        color: white;
+    }
+    .nav .search{
+        border: none;
+    }
+    .side-by-side .side-1{
+        /* background-color: red; */
+        width: 18vw;
+        font-size: 0.6rem;
+    }
+    .side-by-side .side-1 .overview ul{
+        font-size: 0.4rem;
+    }
+    .side-by-side .side-2{
+        display: block;
+        margin: auto;
+        font-size: 0.6rem;
+        /* background-color: red; */
+    }
+    .side-by-side .side-2 .line{
+        width: 40vw;
+    }
+    footer{
+        font-size: 0.4rem;
+    }
+}
