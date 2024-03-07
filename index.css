@@ -39,7 +39,8 @@ body{
     font-size: 0.7rem;
 }
 .box-nav .active{
-    color: #06477f;
+    /* color: #06477f; */
+    color: #333;
     font-weight: bolder;
 }
 .box-nav ul li:hover{
